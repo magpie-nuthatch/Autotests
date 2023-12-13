@@ -39,6 +39,26 @@ values
     ("BMW", "220iA Gran Tourer", 2016, "Duitsland", "benzine", "F", 228, 7.4, 141, 280, 1470, null),
     ("Porsche", "Cayman R", 2011, "Duitsland", "benzine", "R", 282, 5.0, 242.71, 370, 1295, null);
 
+-- 5/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values 
+    ("Maserati", "MC20", 2022, "Italie", "benzine", "R", 326, 2.88, 463, 730, 1475, 4.5),
+    ("Dacia", "Jogger TCe Bi-Fuel", 2022, "Roemenie", "alternatief", "F", 175, 12.3, 74, 170, 1223, 3.5),
+    ("Volkswagen", "ID.Buzz", null, "Duitsland", "elektrisch", null, 145, null, 150, 310, null, 4),
+    ("Land Rover", "Range Rover Velar P400e", 2022, "VK", "hybride", null, 209, 5.4, 297, 640, 2233, 3.5),
+    ("Bentley", "Bentayga S", 2022, "VK", "benzine", null, 290, 4.5, 404, 770, 2416, 3.5),
+    ("Audi", "RS3", 2022, "Duitsland", "benzine", "4", 250, 3.8, 294, 500, 1545, null),
+    ("Mercedes-Benz", "A 45 S AMG", 2022, "Duitsland", "benzine", "4", 270, 3.9, 310, 500, 1535, null),
+    ("Maserati", "450S", 1956, "Italie", "benzine", "R", 320, null, 298, 450, 790, null),
+    ("Jaguar", "E-Type 4.2 Serie 1.5", 1969, "VK", "benzine", "R", 225, 8.9, 180.93, 357, 1422, null),
+    ("Glas", "S 1004 Coupe", 1962, "Duitsland", "benzine", "R", 135, 18.3, 30.89, 69, 740, null),
+    ("Hyundai", "Kona Electric 64 kWh Premium", 2022, "Korea", "elektrisch", "F", 167, 7.3, 150, 395, 1660, 3.5),
+    ("MG", "ZS EV Long Range Luxury", 2022, "China", "elektrisch", "F", 175, 8.6, 115, 280, 1595, 3),
+    ("Volvo", "XC40 P8 AWD Recharge", 2022, "Zweden", "elektrisch", null, 180, 4.9, 308, 660, 2188, null),
+    ("Volvo", "V60 1.6 T4 Summum", 2014, "Zweden", "benzine", "F", 220, 8.5, 132, 240, 1428, null), 
+    ("BMW", "Z4 M Coupe", 2006, "Duitsland", "benzine", "R", 250, 5, 252.28, 365, 1395, null);
+
 -- 24/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
