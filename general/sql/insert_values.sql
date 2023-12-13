@@ -59,6 +59,46 @@ values
     ("Volvo", "V60 1.6 T4 Summum", 2014, "Zweden", "benzine", "F", 220, 8.5, 132, 240, 1428, null), 
     ("BMW", "Z4 M Coupe", 2006, "Duitsland", "benzine", "R", 250, 5, 252.28, 365, 1395, null);
 
+-- 6/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values 
+    ("Ferrari", "296 GTB", 2022, "Italie", "benzine", "R", 330, 2.9, 610, 740, 1470, 4.5),
+    ("Opel", "Astra", 2022, "Duitsland", "benzine", "F", 210, 9.7, 96, 230, 1241, 4),
+    ("Toyota", "bZ4X AWD", 2022, "Japan", "elektrisch", "4", 160, 6.9, 160, 336, null, 3.5),
+    ("DS", "9 E-Tense 250", 2022, "Frankrijk", "hybride", null, 240, 8.2, 184, 360, 1820, 3.5),
+    ("Mini", "Cooper Camden Edition", 2022, "Duitsland", "benzine", null, 210, 8.2, 100.03, 220, 1250, 3.5),
+    ("BMW", "B5 Touring Alpina", 2022, "Duitsland", "benzine", null, 322, 3.6, 457, 800, 2055, null),
+    ("Porsche", "Taycan GTS Sport Turismo", 2022, "Duitsland", "elektrisch", null, 250, 3.7, 440, 850, 2285, null),
+    ("Aston Martin", "Valkyrie", 2022, "VK", "hybride", null, null, 2.7, 865, 900, 1030, null),
+    ("Audi", "Auto Union 1000S", 1960, "Duitsland", "benzine", "F", 130, 25, 36.77, 83, 895, null),
+    ("Lancia", "Appia III", 1959, "Italie", "benzine", "R", 132, 25, 35.3, 85, 920, null),
+    ("Fiat", "1100D", 1963, "Italie", "benzine", "R", 130, 23, 35.3, 78, 934, null),
+    ("Saab", "96", 1960, "Zweden", "benzine", "F", 145, 21, 40.45, 81, 816, null),
+    ("Volvo", "760", 1982, "Zweden", "benzine", "R", 190, 9.9, 114.74, 235, 1326, null),
+    ("Honda", "HR-V 1.5 Hybrid CVT Advanced Style", 2022, "Japan", "hybride", "F", 170, 9.4, 96.35, 253, 1352, 3.5),
+    ("Toyota", "C-HR 1.8 Hybrid GR Sport Aut.", 2022, "Japan", "hybride", "F", 170, 11.8, 89.73, 163, 1395, 3),
+    ("Kia", "Niro Hybrid ExecutiveLine", 2019, "Korea", "hybride", "F", 164, 11.5, 104, 265, 1390, null),
+    ("Peugeot", "106 GTI", 2003, "Frankrijk", "benzine", "F", 205, 8.7, 88.26, 145, 925, null);
+
+-- 7/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values 
+    ("Citroen", "C5 X Plug-In Hybrid 225 Business", 2022, "Frankrijk", "hybride", "F", 225, 8.9, 133, 300, 1679, 3.5),
+    ("BMW", "220i Active Tourer", 2022, "Duitsland", "benzine", "F", 221, 8.1, 125, 240, 1520, 3.5),
+    ("Audi", "A8 60 TFSI e quattro tiptronic", 2022, "Duitsland", "benzine", "4", 250, 4.9, 250, 500, 2295, 4),
+    ("Audi", "S8", 2022, "Duitsland", "benzine", "4", 250, 3.8, 420, 800, 2195, 4),
+    ("Glickenhaus", "SCG 004 S", 2022, "VS", "benzine", null, 305, 3.0, 475.13, 855, 1480, null),
+    ("BMW", "220i Coupe", 2022, "Duitsland", "benzine", "R", 236, 7.5, 135, 300, 1465, null),
+    ("Subaru", "Legacy GT Spec B", 2006, "Japan", "benzine", "4", 180, 5.5, 203.0, 343, 1576, null),
+    ("Mazda", "929 Coupe", 1982, "Japan", "benzine", "R", 175, 13.8, 66.19, 154, 1140, null),
+    ("Kia", "Sportage 1.6 T-Gdi AT6 Hybrid 2WD GT-Line", 2022, "Korea", "hybride", "F", 193, 7.3, 169.16, 350, 1559, 4),
+    ("Peugeot", "3008 Hybrid 225 e-AT8 Allure Pack Business", 2022, "Frankrijk", "hybride", "F", 225, 8.3, 165.49, 360, 1735, 3),
+    ("Cupra", "Born 58 kWh Performance", 2022, "Spanje", "elektrisch", null, 160, 7.3, 150.04, 310, 1736, null),
+    ("Lexus", "GS 450h President Line", 2013, "Japan", "hybride", "R", 250, 5.9, 254, 352, 1800, null),
+    ("Seat", "Ibiza 2.0i 16V GTI Cupra", 1999, "Spanje", "benzine", "F", 215, 8.3, 110.32, 180, 1075, null);
+
 -- 24/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
