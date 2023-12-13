@@ -1,5 +1,44 @@
 commit;
 
+-- 3/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values 
+    ("Cadillac", "CTS-V Blackwing", 2022, "VS", "benzine", "R", 320, 3.8, 490, 894, 1870, 4.5),
+    ("Bentley", "Flying Spur Hybrid", 2022, "VK", "hybride", null, 285, 4.3, 400, 750, 2505, 3.5),
+    ("Mercedes-Benz", "EQS 580 4MATIC AMG Line", 2022, "Duitsland", "elektrisch", null, 210, 4.3, 385, 855, 2585, 4),
+    ("Caterham", "Seven 170R", 2022, "VK", "benzine", "R", 168, 6.9, 62, 116, 440, null),
+    ("Honda", "S660", 2022, "Japan", "benzine", "R", 140, 13.6, 47, 104, 827, null),
+    ("Renault", "Megane E-tech EV60 Iconic", 2022, "Frankrijk", "elektrisch", null, 160, 7.4, 160, 300, 1725, null),
+    ("Renault", "Megane Scenic RT 1.6 e", 1997, "Frankrijk", "benzine", null, 170, 13.7, 66.2, 137, 1195, null),
+    ("Ferrari", "250 GT Coupe Pinin Farina", 1958, "Italie", "benzine", "R", 203, 6.4, 176, 265, 1230, null),
+    ("Simca", "1000 S Coupe", 1968, "Frankrijk", "benzine", "R", 140, 13, 35, 75, 880, null),
+    ("GMC", "Typhoon", 1992, "VS", "benzine", "4", 200, 5.9, 208.88, 484, 1734, null),
+    ("Peugeot", "308 PureTech 130 Allure Pack Business", 2022, "Frankrijk", "benzine", "F", 210, 9.4, 96, 230, 1233, 3.5),
+    ("Volkswagen", "Golf 1.5 TSI Life Business", 2022, "Duitsland", "benzine", "F", 214, 9.8, 96, 200, 1206, 4),
+    ("Audi", "S8 Quattro Pro Line+", 2015, "Duitsland", "benzine", "4", 250, 4.1, 382, 650, 1965, null),
+    ("Audi", "TT 3.2 V6 Quattro", 2004, "Duitsland", "benzine", "4", 250, 6.3, 183.87, 320, 1465, null),
+    ("Cupra", "Born Copper Edition One", 2022, "Spanje", "elektrisch", "R", 160, 7.3, 150, 310, 1711, null);
+
+-- 4/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values 
+    ("Toyota", "Aygo X", 2022, "Japan", "benzine", "F", 151, 14.8, 53, 93, 940, 4),
+    ("Porsche", "Taycan Sport Turismo", 2022, "Duitsland", "elektrisch", null, 230, 5.4, 240, 345, 2080, 4),
+    ("Mercedes-Benz", "C 200 4MATIC All Terrain", 2022, "Duitsland", "benzine", "4", 231, 7.5, 150, 1800, 1720, 3.5),
+    ("Mercedes-Benz", "EQA 350 4MATIC", 2022, "Duitsland", "elektrisch", "4", 160, 6, 215, 520, 2105, 3.5),
+    ("Morgan", "Plus Four CX-T", 2022, "VK", "benzine", null, 225, 6, 187.55, 350, 1213, null),
+    ("Ariel", "Nomad", 2022, "VK", "benzine", null, 200, 3.5, 172.84, 300, 670, null),
+    ("Bentley", "S1 Continental Flying Spur", 1958, "VK", "benzine", null, 191, 12.5, 132, 400, 1766, null),
+    ("Honda", "Acty", 1986, "Japan", "benzine", "4", 105, null, 21.33, 44, 823, null),
+    ("Rover", "220 GTi", 1992, "VK", "benzine", "F", 204, 8.6, 102.97, 180, 1195, null),
+    ("MG", "Marvel R Luxury", 2022, "China", "elektrisch", "R", 200, 8.2, 132.39, 410, 1810, 3.5),
+    ("Skoda Enyaq iV 60", 2022, "Tsjechie", "elektrisch", "R", 160, 8.5, 132, 310, 1965, 3.5),
+    ("Renault", "Megane R.S. Trophy", 2022, "Frankrijk", "benzine", "F", 259, 5.7, 221, 400, 1394, null),
+    ("BMW", "220iA Gran Tourer", 2016, "Duitsland", "benzine", "F", 228, 7.4, 141, 280, 1470, null),
+    ("Porsche", "Cayman R", 2011, "Duitsland", "benzine", "R", 282, 5.0, 242.71, 370, 1295, null);
+
 -- 24/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
