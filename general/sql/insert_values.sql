@@ -99,6 +99,69 @@ values
     ("Lexus", "GS 450h President Line", 2013, "Japan", "hybride", "R", 250, 5.9, 254, 352, 1800, null),
     ("Seat", "Ibiza 2.0i 16V GTI Cupra", 1999, "Spanje", "benzine", "F", 215, 8.3, 110.32, 180, 1075, null);
 
+-- 8/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("Nissan", "Ariya", 2022, "Japan", "elektrisch", "F", 160, 7.5, 160, 300, 1914, 4),
+    ("Nissan", "Ariya", 2022, "Japan", "elektrisch", "4", 200, 5.7, 225, 600, 2218, 4),
+    ("Porsche", "Cayman GT4 RS", 2022, "Duitsland", "benzine", "R", 315, 3.4, 368, 450, 1415, 5),
+    ("Skoda", "Enyaq Coupe", 2022, "Tsjechie", "elektrisch", null, 160, 8.8, 132, 310, 2149, 4),
+    ("Mazda", "CX-5 Skyactiv-G 165 Newground", 2022, "Japan", "benzine", null, 201, 10.5, 121, 213, 1386, 3),
+    ("Jeep", "Renegade 1.5T e-Hybrid Longitude", 2022, "VS", "hybride", null, 191, 10, 90, 240, 1395, 2.5),
+    ("Ford", "Fiesta 1.0 Ecoboost 125 pk Hybrid ST Line X", 2022, "VS", "hybride", null, 200, 9.4, 92, 210, 1136, null),
+    ("Hyundai", "i20 1.0 T-GDI mHEV 120 pk 7-DCT N Line", 2022, "Korea", "hybride", null, 190, 10.3, 88, 200, 1090, null),
+    ("Lotus", "Esprit Turbo", 1981, "VK", "benzine", "R", 245, 5.6, 156.5, 271, 1148, null),
+    ("Audi", "80L", 1973, "Duitsland", "benzine", "F", 145, 16.9, 44.13, 95, 835, null),
+    ("Porsche", "928 GTS", 1992, "Duitsland", "benzine", "R", 275, 5.7, 250.07, 500, 1620, null),
+    ("Audi", "Q5 50 TFSI e S Edition", 2022, "Duitsland", "benzine", "4", 239, 5.5, 219.91, 370, 2050, 4),
+    ("Lexus", "NX 450+ AWD F-Sport", 2022, "Japan", "benzine", "4", 200, 6.0, 227.27, 227, 1965, 4),
+    ("Chrysler", "LeBaron Convertible 3.0 V6", 1992, "VS", "benzine", "F", 186, 11, 100, 226, 1421, null),
+    ("Saab", "9-3 Cabriolet 2.0t S", 2000, "Zweden", "benzine", "F", 210, 8.8, 113, 219, 1365, null),
+    ("Honda", "HR-V i-VTEC Executive", 2019, "Japan", "benzine", "F", 192, 10.2, 96, 155, 1214, null),
+    ("Lancia", "Kappa Coupe 3.0 V6", 1997, "Italie", "benzine", "F", 220, 9.8, 150.04, 270, 1515, null);
+
+-- 9/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("Land Rover", "Range Rover P440e SE", 2022, "VK", "hybride", "4", 225, 6.0, 324, 620, 2770, 4.5),
+    ("Land Rover", "Range Rover P530 SV LWB", 2022, "VK", "benzine", "4", 250, 4.8, 390, 750, 2626, 4.5),
+    ("Mercedes-Benz", "EQE 350+", 2022, "Duitsland", "elektrisch", "R", 210, 6.4, 215, 530, 2255, 4),
+    ("Nio", "ES8 100 kWh", 2022, "China", "elektrisch", "4", 200, 4.9, 400, 725, 2425, 4),
+    ("Subaru", "Solterra", 2022, "Japan", "elektrisch", null, 160, 6.9, 160, 336, 2010, 3.5),
+    ("Nissan", "Qashqai e-Power", 2022, "Japan", "elektrisch", "F", 160, 8.5, 140, 330, 1650, 4),
+    ("Autech", "Gavia Zagato", 1991, "Japan", "benzine", "R", 250, 5.9, 206, 382, null, null),
+    ("Bentley", "3 1/2 Litre Streamline Sports Saloon Park Ward", 1935, "VK", "benzine", "R", 145, 10.3, 80.9, null, 1120, null),
+    ("Opel", "Mantra A 1.9 SR", 1972, "Duitsland", "benzine", "R", 170, 12.5, 66.19, 156, 970, null),
+    ("Mazda", "2 Hybrid Pure", 2022, "Japan", "hybride", "F", 175, 9.8, 126.51, 141, 1080, 3.5),
+    ("Skoda", "Fabia 1.0 TSI Business Edition", 2022, "Tsjechie", "benzine", "F", 195, 11, 70, 175, 1071, 4),
+    ("Mazda", "MX-5 Luxury", 2022, "Japan", "benzine", "R", 204, 8.3, 97, 152, 971, null),
+    ("Maserati", "Spyder Camb.", 2003, "Italie", "benzine", "R", 283, 5, 287, 451, 1675, null),
+    ("Mercedes-Benz", "SL 55 AMG", 2005, "Duitsland", "benzine", "R", 250, 4.7, 371, 700, 1905, null),
+    ("Opel", "Speedster Turbo", 2005, "Duitsland", "benzine", "R", 243, 4.9, 250, 414, 905, null),
+    ("Porsche", "996 Cabrio", 1999, "Duitsland", "benzine", "R", 280, 5.4, 221, 350, 1370, null),
+    ("Dacia", "Lodgy 1.2 TCE Laureate 5P", 2016, "Roemenie", "benzine", "F", 179, 10.6, 85, 190, 1156, null),
+    ("BMW", "B5 Alpina", 2005, "Duitsland", "benzine", "R", 314, 4.7, 367.75, 700, 1720, null);
+
+-- 9/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("Maserati", "Grecale GT", 2022, "Italie", "hybride", "4", 240, 5.6, 221, 450, 1870, 3.5),
+    ("Maserati", "Grecale Trofeo", 2022, "Italie", "benzine", "4", 285, 3.8, 340, 620, 2027, 3.5),
+    ("Mazda", "CX-60", 2022, "Japan", "hybride", "4", 200, 5.8, 141, 261, 1955, 3.5),
+    ("Mercedes-Benz", "GT 63 S E Performance AMG", 2022, "Duitsland", "benzine", null, 316, 2.9, 470, 900, 2280, 4),
+    ("Aston Martin", "DBX707", 2022, "VK", "benzine", "4", 310, 3.3, 520, 900, 2245, null),
+    ("Tesla", "Model Y Performance", 2022, "VS", "elektrisch", null, 250, 3.7, 340, 639, 1972, null),
+    ("Hommell", "Berlinette RS", 1997, "Frankrijk", "benzine", "F", 230, 6.5, 122.83, 196, 950, null),
+    ("Opel", "Vectra 1.8i GLS", 1991, "Duitsland", "benzine", "F", 183, 12.5, 66.19, 145, 1221, null),
+    ("Daihatsu", "Charmant 1.6", 1982, "Japan", "benzine", "R", 160, 12.1, 55.16, 118, 904, null),
+    ("Suzuki", "Ignis 1.2 Smart Hybrid Style", 2022, "Japan", "hybride", "F", 165, 11.5, 63, 107, 835, 3.5),
+    ("Toyota", "Aygo X 1.0 VVT-i MT Envy", 2022, "Japan", "benzine", "F", 158, 15, 53, 93, 930, 4),
+    ("Mercedes-Benz", "GLE 500 4Matic", 2016, "Duitsland", "benzine", "4", 250, 5.3, 320, 700, 2135, null),
+    ("Volvo", "850 T-5R Estate", 1994, "Zweden", "benzine", "F", 235, 7.5, 176.52, 330, 1517, null);
+
 -- 24/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
