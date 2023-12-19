@@ -193,9 +193,12 @@ values
     ("Audi", "Q8 60 TFSI e quattro Pro Line S Competition", 2023, "Duitsland", "hybride", "4", 240, 5.4, 340, 700, 2415, null),
     ("Land Rover", "Range Rover Sport P510e Autobiography", 2023, "VK", "hybride", "4", 242, 5.4, 375, 700, 2735, null),
     ("Nissan", "240Z Datsun", 1971, "Japan", "benzine", "R", 200, 8.5, 111, 198, 1038, null),
-    ("Triumph", "TR6 softtop", 1971, "VS", "benzine", "R", 191, 8.7, 110, 223, 1122, null),
-    ("Peugeot", "306 1.6 XT", 1993, "Frankrijk", "benzine", "F". 180, 12.9, ),
-    ();
+    ("Triumph", "TR6 softtop", 1971, "VK", "benzine", "R", 191, 8.7, 110, 223, 1122, null),
+    ("Peugeot", "306 1.6 XT", 1993, "Frankrijk", "benzine", "F", 180, 12.9, 66.19, 135, 1060, null),
+    ("MG", "Midget 1500", 1976, "VK", "benzine", "R", 165, 12, 41.19, 99, 910, null),
+    ("Dacia", "Duster TCe 150 4x4 Journey", 2023, "Roemenie", "benzine", "4", 180, 9.9, 110, 250, 1303, 3.5),
+    ("Fiat", "Tipo SW 1.5 130 Hybrid Cross", 2023, "Italie", "benzine", "F", 199, 9.6, 96, 240, 1355, 2.5),
+    ("Kia", "Soul EV 27 kWh", 2018, "Korea", "elektrisch", "F", 145, 11.2, 81, 285, 1480, null);
 
 -- 5/2023
 insert into autotests_full
