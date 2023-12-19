@@ -159,7 +159,7 @@ values
     ("Daihatsu", "Charmant 1.6", 1982, "Japan", "benzine", "R", 160, 12.1, 55.16, 118, 904, null),
     ("Suzuki", "Ignis 1.2 Smart Hybrid Style", 2022, "Japan", "hybride", "F", 165, 11.5, 63, 107, 835, 3.5),
     ("Toyota", "Aygo X 1.0 VVT-i MT Envy", 2022, "Japan", "benzine", "F", 158, 15, 53, 93, 930, 4),
-    ("Mercedes-Benz", "GLE 500 4Matic", 2016, "Duitsland", "benzine", "4", 250, 5.3, 320, 700, 2135, null),
+    ("Mercedes-Benz", "GLE 500 4Matic", 2016, "Duitsland", "benzine", "4", 250, 5.3, 320, 700, 2135, null), 
     ("Volvo", "850 T-5R Estate", 1994, "Zweden", "benzine", "F", 235, 7.5, 176.52, 330, 1517, null); 
 
 -- 24/2022
