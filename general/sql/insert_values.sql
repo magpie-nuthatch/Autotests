@@ -162,6 +162,21 @@ values
     ("Mercedes-Benz", "GLE 500 4Matic", 2016, "Duitsland", "benzine", "4", 250, 5.3, 320, 700, 2135, null), 
     ("Volvo", "850 T-5R Estate", 1994, "Zweden", "benzine", "F", 235, 7.5, 176.52, 330, 1517, null); 
 
+-- 20/2022
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("BMW", "X1 xDrive23i", 2022, "Duitsland", "benzine", "4", 233, 7.1, 150, 320, 150, 320, 1655, 4.5),
+    ("BMW", "iX1", 2022, "Duitsland", "elektrisch", "4", 180, 5.7, 230, 494, null, 4.5),
+    ("BYD", "Atto 3", 2022, "China", "elektrisch", "F", 160, 7.3, 150, 310, null, 3.5),
+    ("Lexus", "LC 500", 2022, "Japan", "benzine", "R", 270, 4.6, 341, 530, 2010, 4),
+    ("Volvo", "XC40 Recharge Pure Electric", 2022, "Zweden", "elektrisch", "F", 160, 7.4, 170, 330, 1923, 4),
+    ("Mercedes-Benz", "SL 63 4MATIC+ AMG", 2022, "Duitsland", "benzine", "4", 315, 3.6, 430, 800, 1870, null),
+    ("Skoda", "120L", 1983, "Tsjechie", "benzine", "R", 140, 19, 38.98, 85, 970, null),
+    ("Citroen", "Dyane 6", 1972, "Frankrijk", "benzine", "F", 121, 31, 23.54, 46, 600, null),
+    (),
+    ();
+
 -- 24/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
