@@ -174,8 +174,10 @@ values
     ("Mercedes-Benz", "SL 63 4MATIC+ AMG", 2022, "Duitsland", "benzine", "4", 315, 3.6, 430, 800, 1870, null),
     ("Skoda", "120L", 1983, "Tsjechie", "benzine", "R", 140, 19, 38.98, 85, 970, null),
     ("Citroen", "Dyane 6", 1972, "Frankrijk", "benzine", "F", 121, 31, 23.54, 46, 600, null),
-    (),
-    ();
+    ("Mazda", "CX-60 e-Skyactiv PHEV 327 Exclusive Line", 2022, "Japan", "hybride", "4", 180, 6, 240.51, 500, 1970, 3),
+    ("Suzuki", "Across 2.5 Plug-In Hybrid CVT Aut.", 2022, "Japan", "hybride", "4", 200, 6, 225.06, null, 195, 4),
+    ("Peugeot", "308 SW 1.2 PURETECH ALLURE", 2015, "Frankrijk", "benzine", "F", 205, 10, 96, 230, 1154, null),
+    ("Ford", "Fiesta XR2", 1986, "VS", "benzine", "F", 180, 9.9, 70.61, 133, 846, null);
 
 -- 24/2022
 insert into autotests_full
