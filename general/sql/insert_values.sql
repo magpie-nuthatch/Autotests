@@ -183,6 +183,20 @@ values
     ("Mazda", "CX-3 2.0 SKYACTIV-G AUT.", 2016, "Japan", "benzine", "F", 187, 9.9, 88, 204, 1170, null),
     ("Toyota", "Corolla Compressor", 2006, "Japan", "benzine", "F", 230, 6.9, 160.34, 215, 1215, null);
 
+-- 2/2023
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("Pagani", "Huayra R", 2023, "Italie", "benzine", "R", 320, 3.0, 625, 750, 1050, 4.5),
+    ("Audi", "Q8 e-tron 55 quattro", 2023, "Duitsland", "elektrisch", "4", 200, 5.6, 300, 664, 2595, 4.5),
+    ("Porsche", "911 GT3 RS", 2023, "Duitsland", "benzine", "R", 296, 3.2, 386, 465, 1450, null),
+    ("Audi", "Q8 60 TFSI e quattro Pro Line S Competition", 2023, "Duitsland", "hybride", "4", 240, 5.4, 340, 700, 2415, null),
+    ("Land Rover", "Range Rover Sport P510e Autobiography", 2023, "VK", "hybride", "4", 242, 5.4, 375, 700, 2735, null),
+    ("Nissan", "240Z Datsun", 1971, "Japan", "benzine", "R", 200, 8.5, 111, 198, 1038, null),
+    ("Triumph", "TR6 softtop", 1971, "VS", "benzine", "R", 191, 8.7, 110, 223, 1122, null),
+    ("Peugeot", "306 1.6 XT", 1993, "Frankrijk", "benzine", "F". 180, 12.9, ),
+    ();
+
 -- 5/2023
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
