@@ -164,7 +164,7 @@ values
 
 -- 20/2022
 insert into autotests_full
-	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling) 
 values
     ("BMW", "X1 xDrive23i", 2022, "Duitsland", "benzine", "4", 233, 7.1, 150, 320, 150, 320, 1655, 4.5),
     ("BMW", "iX1", 2022, "Duitsland", "elektrisch", "4", 180, 5.7, 230, 494, null, 4.5),
