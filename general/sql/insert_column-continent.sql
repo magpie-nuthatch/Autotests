@@ -11,6 +11,7 @@ set continent = "Europa"
 where land in ("Duitsland",
 				"Frankrijk",
                 "Italie",
+                "Kroatie",
                 "Nederland",
                 "Roemenie",
                 "Spanje",
@@ -25,10 +26,15 @@ where land in ("China",
                 "Korea");
                 
 update autotests_full
+set continent = "Noord-Amerika"
+where land in ("VS");                
+                
+update autotests_full
 set continent = "Overig"
 where land not in ("Duitsland",
 					"Frankrijk",
 					"Italie",
+                    "Kroatie",
 					"Nederland",
 					"Roemenie",
 					"Spanje",
@@ -37,4 +43,5 @@ where land not in ("Duitsland",
 					"Zweden",
 					"China",
 					"Japan",
-					"Korea");
+					"Korea",
+                    "VS");
