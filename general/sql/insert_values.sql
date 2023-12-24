@@ -418,8 +418,19 @@ values
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
 values
-    (),
-    ();
+    ("Smart", "3 Brabus", 2024, "China", "elektrisch", "4", 180, 3.7, 315, 543, 1910, 4.5),
+    ("Peugeot", "e-308 SW Allure", 2023, "Frankrijk", "elektrisch", null, 170, 10, 115, 270, 1691, 3),
+    ("Ferrari", "SF90 XX Stradale", 2024, "Italie", "hybride", "F", 320, 2.3, 757, 900, 1560, null),
+    ("Audi", "R8 GT RWD", 2023, "Duitsland", "benzine", "R", 320, 3.4, 456, 565, 1470, null),
+    ("BMW", "M3 Touring Competition xDrive", 2023, "Duitsland", "benzine", "4", 250, 3.6, 375, 650, 1840, null),
+    ("BMW", "M2", 2023, "Duitsland", "benzine", "R", 250, 4.1, 338, 550, 1700, null),
+    ("Honda", "Civic Type R", 2023, "Japan", "benzine", "F", 275, 5.4, 242, 420, 1429, null),
+    ("Porsche", "718 Spyder RS", 2023, "Duitsland", "benzine", "R", 308, 3.4, 368, 450, 1410, null),
+    ("Tesla", "Model S Plaid", 2023, "VS", "elektrisch", "4", 322, 2.1, 750.21, 1424, 2165, null),
+    ("Singer", "1.5 Litre Le Mans Special", 1934, "VK", "benzine", "R", 139, null, 46, null, 980, null),
+    ("Aston Martin", "Vantage", 1983, "VK", "benzine", "R", 270, 5.5, 291, 550, 1740, null),
+    ("Lamborghini", "Huracan Sterrato", 2023, "Italie", "benzine", "4", 260, 3.4, 449, 560, 1470, null),
+    ("Ferrari", "FF", 2013, "Italie", "benzine", "4", 335, 3.7, 486, 638, 1855, null);
 
 select * from autotests_view;
 
