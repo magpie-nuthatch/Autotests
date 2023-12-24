@@ -1,7 +1,3 @@
-commit; 
-
-drop table autotests_full;
-
 drop database autotests;
 
-rollback;
+drop table autotests_full;

@@ -1,5 +1,3 @@
-commit;
-
 -- 3/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
@@ -34,7 +32,7 @@ values
     ("Honda", "Acty", 1986, "Japan", "benzine", "4", 105, null, 21.33, 44, 823, null),
     ("Rover", "220 GTi", 1992, "VK", "benzine", "F", 204, 8.6, 102.97, 180, 1195, null),
     ("MG", "Marvel R Luxury", 2022, "China", "elektrisch", "R", 200, 8.2, 132.39, 410, 1810, 3.5),
-    ("Skoda Enyaq iV 60", 2022, "Tsjechie", "elektrisch", "R", 160, 8.5, 132, 310, 1965, 3.5),
+    ("Skoda", "Enyaq iV 60", 2022, "Tsjechie", "elektrisch", "R", 160, 8.5, 132, 310, 1965, 3.5),
     ("Renault", "Megane R.S. Trophy", 2022, "Frankrijk", "benzine", "F", 259, 5.7, 221, 400, 1394, null),
     ("BMW", "220iA Gran Tourer", 2016, "Duitsland", "benzine", "F", 228, 7.4, 141, 280, 1470, null),
     ("Porsche", "Cayman R", 2011, "Duitsland", "benzine", "R", 282, 5.0, 242.71, 370, 1295, null);
@@ -43,12 +41,11 @@ values
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
 values 
-    ("Maserati", "MC20", 2022, "Italie", "benzine", "R", 326, 2.88, 463, 730, 1475, 4.5),
+    ("Maserati", "MC20", 2022, "Italie", "benzine", "R", 326, 2.9, 463, 730, 1475, 4.5),
     ("Dacia", "Jogger TCe Bi-Fuel", 2022, "Roemenie", "alternatief", "F", 175, 12.3, 74, 170, 1223, 3.5),
     ("Volkswagen", "ID.Buzz", null, "Duitsland", "elektrisch", null, 145, null, 150, 310, null, 4),
     ("Land Rover", "Range Rover Velar P400e", 2022, "VK", "hybride", null, 209, 5.4, 297, 640, 2233, 3.5),
     ("Bentley", "Bentayga S", 2022, "VK", "benzine", null, 290, 4.5, 404, 770, 2416, 3.5),
-    ("Audi", "RS3", 2022, "Duitsland", "benzine", "4", 250, 3.8, 294, 500, 1545, null),
     ("Mercedes-Benz", "A 45 S AMG", 2022, "Duitsland", "benzine", "4", 270, 3.9, 310, 500, 1535, null),
     ("Maserati", "450S", 1956, "Italie", "benzine", "R", 320, null, 298, 450, 790, null),
     ("Jaguar", "E-Type 4.2 Serie 1.5", 1969, "VK", "benzine", "R", 225, 8.9, 180.93, 357, 1422, null),
@@ -103,7 +100,7 @@ values
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
 values
-    ("Nissan", "Ariya", 2022, "Japan", "elektrisch", "F", 160, 7.5, 160, 300, 1914, 4),
+
     ("Nissan", "Ariya", 2022, "Japan", "elektrisch", "4", 200, 5.7, 225, 600, 2218, 4),
     ("Porsche", "Cayman GT4 RS", 2022, "Duitsland", "benzine", "R", 315, 3.4, 368, 450, 1415, 5),
     ("Skoda", "Enyaq Coupe", 2022, "Tsjechie", "elektrisch", null, 160, 8.8, 132, 310, 2149, 4),
@@ -144,7 +141,7 @@ values
     ("Dacia", "Lodgy 1.2 TCE Laureate 5P", 2016, "Roemenie", "benzine", "F", 179, 10.6, 85, 190, 1156, null),
     ("BMW", "B5 Alpina", 2005, "Duitsland", "benzine", "R", 314, 4.7, 367.75, 700, 1720, null);
 
--- 9/2022
+-- 19/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
 values
@@ -166,7 +163,7 @@ values
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling) 
 values
-    ("BMW", "X1 xDrive23i", 2022, "Duitsland", "benzine", "4", 233, 7.1, 150, 320, 150, 320, 1655, 4.5),
+    ("BMW", "X1 xDrive23i", 2022, "Duitsland", "benzine", "4", 233, 7.1, 150, 320, 1655, 4.5),
     ("BMW", "iX1", 2022, "Duitsland", "elektrisch", "4", 180, 5.7, 230, 494, null, 4.5),
     ("BYD", "Atto 3", 2022, "China", "elektrisch", "F", 160, 7.3, 150, 310, null, 3.5),
     ("Lexus", "LC 500", 2022, "Japan", "benzine", "R", 270, 4.6, 341, 530, 2010, 4),
@@ -186,7 +183,6 @@ values
     ("BYD", "Tang", 2022, "China", "elektrisch", "4", 180, 4.6, 380, null, 2464, 3.0),
     ("Range Rover", "P510e", 2022, "China", "hybride", "4", 242, 5.5, 375, 700, 2810, 4.0),
     ("Polestar", "2 BST 270 edition", 2022, "China", "elektrisch", "4", 205, 4.4, 350, 680, 2113, 4.0),
-    ("Aston Martin", "DBX707", 2022, "VK", "benzine", "4", 310, 3.3, 520, 900, 2245, null),
     ("Audi", "RS3", 2022, "Duitsland", "benzine", "4", 290, 3.8, 294, 500, 1545, null),
     ("Cupra", "Formentor VZ5", 2022, "Spanje", "benzine", "4", 250, 4.2, 287, 480, 1583, null),
     ("Mercedes-Benz", "300 SL Coupe", 2022, "Duitsland", "benzine", "R", 235, 8.7, 158, 275, 1295, null),
@@ -224,8 +220,6 @@ values
     ("Hyundai", "Ioniq 6 77.4 kWh RWD Lounge", 2023, "Korea", "elektrisch", "R", 185, 7.4, 168, 350, 1903, 4),
     ("Toyota", "Corolla Touring Sports 2.0 Hybrid", 2023, "Japan", "hybride", "F", 180, 7.7, 144, 190, 1415, 4),
     ("Dacia", "Jogger Hybrid 140", 2023, "Roemenie", "hybride", "F", 167, 10.0, 104, null, 1460, 4),
-    ("Maserati", "Grecale Trofeo", 2023, "Italie", "benzine", "4", 285, 3.8, 389, 620, 2027, null),
-    ("Subaru", "Solterra", 2023, "Japan", "elektrisch", "4", 160, 6.9, 160, 337, 1985, null),
     ("Subaru", "Forester 2.0i e-Boxer", 2023, "Japan", "benzine", "4", 188, 11.8, 110, 194, 1658, null),
     ("Osca", "MT4-2AD", 1954, "Italie", "benzine", "R", 195, 8.0, 81, 130, 650, null),
     ("BMW", "700 Cabriolet", 1963, "Duitsland", "benzine", "R", 135, 24.5, 29.42, 51, 680, null),
@@ -425,7 +419,6 @@ values
     ("BMW", "M3 Touring Competition xDrive", 2023, "Duitsland", "benzine", "4", 250, 3.6, 375, 650, 1840, null),
     ("BMW", "M2", 2023, "Duitsland", "benzine", "R", 250, 4.1, 338, 550, 1700, null),
     ("Honda", "Civic Type R", 2023, "Japan", "benzine", "F", 275, 5.4, 242, 420, 1429, null),
-    ("Porsche", "718 Spyder RS", 2023, "Duitsland", "benzine", "R", 308, 3.4, 368, 450, 1410, null),
     ("Tesla", "Model S Plaid", 2023, "VS", "elektrisch", "4", 322, 2.1, 750.21, 1424, 2165, null),
     ("Singer", "1.5 Litre Le Mans Special", 1934, "VK", "benzine", "R", 139, null, 46, null, 980, null),
     ("Aston Martin", "Vantage", 1983, "VK", "benzine", "R", 270, 5.5, 291, 550, 1740, null),
