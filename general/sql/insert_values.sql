@@ -397,6 +397,30 @@ values
     ("Polestar", "2 Long Range Single Motor", 2023, "China", "elektrisch", "R", 205, 6.1, 200, 490, 2490, 4),
     ("Suzuki", "Baleno 1.2 Exclusive", 2016, "Japan", "benzine", "F", 180, 12.3, 66, 120, 840, null);
 
+-- 25/2023
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    ("Renault", "Scenic E-Tech Electric", 2024, "Frankrijk", "elektrisch", "F", 150, 9.3, 125, 280, 1750, 4.5),
+    ("McLaren", "750S", 2023, "VK", "benzine", "R", 332, 2.8, 552, 800, 1277, 4.5),
+    ("Peugeot", "e-3008 Electric 210", 2024, "Frankrijk", "elektrisch", "F", 170, 8.8, 157, 343, 2108, 3.5),
+    ("Mercedes-Benz", "GLE 400 e 4MATIC Coupe", 2023, "Duitsland", "hybride", "4", 210, 6.1, 280, 650, 2570, null),
+    ("Porsche", "Cayenne e-Hybrid Coupe", 2023, "Duitsland", "hybride", "4", 254, 4.6, 346, 650, 2430, null),
+    ("Pontiac", "Firebird Formula", 1979, "VS", "benzine", "R", 175, 11, 106.65, 334, 1730, null),
+    ("Citroen", "Visa Chrono", 1983, "Frankrijk", "benzine", "F", 168, 10.9, 57, 109, 830, null),
+    ("Xpeng", "G9 Long Range", 2023, "China", "elektrisch", "R", 200, 6.3, 230, 430, 2135, 4),
+    ("Nissan", "Ariya 87 kWh Evolve", 2023, "Japan", "elektrisch", "F", 160, 8.5, 187, 300, 2046, 3),
+    ("Audi", "A7 Sportback 2.8 FSI Quattro Pro Line Plus", 2011, "Duitsland", "benzine", "4", 235, 8.3, 150, 280, 1695, null),
+    ("Mercedes-Benz", "CLS 350", 2011, "Duitsland", "benzine", null, 250, 6.1, 225, 370, 1635, null),
+    ("Volkswagen", "Tiguan 1.4 TSI", 2018, "Duitsland", "benzine", "F", 190, 10.5, 92, 200, 1390, null);
+
+-- 26/2023
+insert into autotests_full
+	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
+values
+    (),
+    ();
+
 select * from autotests_view;
 
 rollback;
