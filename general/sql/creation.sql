@@ -22,10 +22,6 @@ add constraint unique(model);
 alter table autotests_full
 add constraint check_topsnelheid check(topsnelheid > 100);
 
-create view autotests_view as
-select merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling
-from autotests_full;
-
 set autocommit = off;
 
 commit;

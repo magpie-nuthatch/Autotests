@@ -425,6 +425,6 @@ values
     ("Lamborghini", "Huracan Sterrato", 2023, "Italie", "benzine", "4", 260, 3.4, 449, 560, 1470, null),
     ("Ferrari", "FF", 2013, "Italie", "benzine", "4", 335, 3.7, 486, 638, 1855, null); 
 
-select * from autotests_view;
+select * from autotests_full;
 
 rollback;

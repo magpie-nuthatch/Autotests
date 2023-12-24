@@ -1,3 +1,5 @@
 drop database autotests;
 
 drop table autotests_full;
+
+drop view autotests_view;
