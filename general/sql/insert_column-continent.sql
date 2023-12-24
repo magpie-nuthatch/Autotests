@@ -25,7 +25,7 @@ where land in ("China",
                 "Korea");
                 
 update autotests_full
-set continent = "OVerig"
+set continent = "Overig"
 where land not in ("Duitsland",
 					"Frankrijk",
 					"Italie",
