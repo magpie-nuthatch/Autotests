@@ -430,7 +430,7 @@ values
     ("Singer", "1.5 Litre Le Mans Special", 1934, "VK", "benzine", "R", 139, null, 46, null, 980, null),
     ("Aston Martin", "Vantage", 1983, "VK", "benzine", "R", 270, 5.5, 291, 550, 1740, null),
     ("Lamborghini", "Huracan Sterrato", 2023, "Italie", "benzine", "4", 260, 3.4, 449, 560, 1470, null),
-    ("Ferrari", "FF", 2013, "Italie", "benzine", "4", 335, 3.7, 486, 638, 1855, null);
+    ("Ferrari", "FF", 2013, "Italie", "benzine", "4", 335, 3.7, 486, 638, 1855, null); 
 
 select * from autotests_view;
 
