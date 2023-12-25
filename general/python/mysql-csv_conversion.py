@@ -21,5 +21,6 @@ df = pd.read_sql("SELECT * FROM autotests_full",
                  )
 
 df.to_csv("general\\csv\\csv_template.csv",
+          index = False,
           sep = ";"
           )
