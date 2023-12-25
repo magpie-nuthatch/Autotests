@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("general\\csv\\autovisie_import.csv",
+df = pd.read_csv("general\\csv\\autotests.csv",
                  encoding='latin1',
                  sep = ";",
                  index_col = 0)
