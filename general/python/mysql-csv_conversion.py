@@ -20,7 +20,7 @@ df = pd.read_sql("SELECT * FROM autotests_full",
                  con = engine
                  )
 
-df.to_csv("general\\csv\\csv_template.csv",
+df.to_csv("general\\csv\\autotests.csv",
           index = False,
           sep = ";"
           )
