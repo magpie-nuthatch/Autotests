@@ -15,8 +15,6 @@ values
     ("Caterham", "7 VX 1600", 1998, "VK", "benzine", "R", 177, 7, 74, 145, 525, null),
     ("Lada", "2105 1.3", 1981, "Rusland", "benzine", "R", 148, 18, 47.81, 96, 970, null);
 
-select * from autotests_full;
-
 -- 16/2022
 insert into autotests_full
 	(merk, model, jaar, land, brandstof, aandrijving, topsnelheid, acceleratie100, maxvermogen, maxkoppel, massaleeg, beoordeling)
@@ -24,7 +22,6 @@ values
     ("Lotus", "Emira V6", 2022, "VK", "benzine", "R", 290, 4.3, 298, 420, 1405, 4),
     ("Weltmeister", "W5", 2023, "China", "elektrisch", "F", 160, 8.3, 160, 315, null, 3),
     ("Mercedes-Benz", "EQS 53 AMG", 2022, "Duitsland", "elektrisch", null, 250, 3.4, 560.45, 1020, 2555, 3.5),
-    ("Alpine", "A110 GT", 2022, "Frankrijk", "benzine", null, 250, 4.2, 221, 340, 1119, 4,5),
     ("Mercedes-Benz", "EQXX Vision", 2022, "Duitsland", "elektrisch", "R", 140, null, 180.2, null, 1755, null),
     ("Mercedes-Benz", "280 SL", 1980, "Duitsland", "benzine", "R", 207, 9, 136.07, 238, 1560, null),
     ("Nissan", "2400 Custom de Luxe", 1972, "Japan", "benzine", "R", 165, 11.2, 95.61, 196, 1320, null),
