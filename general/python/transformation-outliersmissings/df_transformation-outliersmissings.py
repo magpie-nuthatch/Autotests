@@ -1,8 +1,8 @@
 import pandas as pd # Imports pandas library
 import numpy as np # Imports numpy library
-from df_descriptives_template import descriptives as df_descriptives
+from df_descriptives import descriptives as df_descriptives
 
-df = pd.read_csv("csv_template.csv",
+df = pd.read_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
                  encoding='latin1',
                  sep = ";",
                  index_col = 0) # Imports csv file as data frame

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("general\\csv\\transformed\\autotests_trans.csv",
+df = pd.read_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
                  encoding='latin1',
                  sep = ";",
                  index_col = 0)
