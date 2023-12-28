@@ -22,6 +22,6 @@ df = df.dropna(subset = ["continent", "topsnelheid", "acceleratie100", "brandsto
                how = "any"
                )
 
-df.to_csv("general\\csv\\transformed\\autotests_trans.csv",
+df.to_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
           sep=";"
           )
