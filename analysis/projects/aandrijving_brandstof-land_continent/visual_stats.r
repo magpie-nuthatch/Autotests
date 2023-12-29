@@ -8,10 +8,16 @@ df <- read.csv(
   "general\\csv\\transformed\\autotests_trans-aandrijving_brandstof.csv",
   sep = ";")
 
-head(df,
-    n = 10)
 summary(df)
 nrow(df)
 ncol(df)
 
+continent <- df$continent
+land <- df$land
 
+brandstof <- df$brandstof
+aandrijving <- df$aandrijving
+
+barplot <- plot(x = continent, type = h)
+
+barplot

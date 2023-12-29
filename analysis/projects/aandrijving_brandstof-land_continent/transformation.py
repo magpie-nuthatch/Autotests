@@ -27,14 +27,17 @@ def descriptives(df):
 
 descriptives(df)
 
-df_trans = df.dropna(subset = ["continent", "brandstof", "aandrijving"], 
-                     how = "any")
+df_trans = df
 
 df_trans.drop(df[df["continent"].isin(["Overig"])].index,
               inplace = True)
 
 df_trans.drop(df[df["brandstof"].isin(["Alternatief"])].index,
               inplace = True)
+
+df_trans.dropna(subset = ["continent", "land", "brandstof", "aandrijving"], 
+                how = "any",
+                inplace = True)
 
 descriptives(df_trans)
 
