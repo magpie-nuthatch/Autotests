@@ -29,10 +29,10 @@ descriptives(df)
 
 df_trans = df
 
-df_trans.drop(df[df["continent"].isin(["Overig"])].index,
+df_trans.drop(df[df["continent"].isin(["Overig", "overig"])].index,
               inplace = True)
 
-df_trans.drop(df[df["brandstof"].isin(["Alternatief"])].index,
+df_trans.drop(df[df["brandstof"].isin(["Alternatief", "alternatief"])].index,
               inplace = True)
 
 df_trans.dropna(subset = ["continent", "land", "brandstof", "aandrijving"], 
