@@ -1,4 +1,5 @@
 library(tidyverse)
+library(dplyr)
 library(epitools) # Loads epitools package for odds ratio calculation
 
 options(scipen = 999)
@@ -24,7 +25,7 @@ barchart_count_continent <- ggplot(data = df,
 ) + 
   geom_bar(color = "darkred",
            fill = "pink",
-           linewidth = 1,
+           linewidth = 0.5,
            lineend = "square",
            na.rm = TRUE,
            show.legend = FALSE
@@ -42,7 +43,7 @@ barchart_count_land <- ggplot(data = df,
 ) + 
   geom_bar(color = "darkred",
            fill = "pink",
-           linewidth = 1,
+           linewidth = 0.5,
            lineend = "square",
            na.rm = TRUE,
            show.legend = FALSE
@@ -63,7 +64,7 @@ barchart_count_brandstof <- ggplot(data = df,
 ) + 
   geom_bar(color = "darkblue",
            fill = "lightblue",
-           linewidth = 1,
+           linewidth = 0.5,
            lineend = "square",
            na.rm = TRUE,
            show.legend = FALSE
@@ -81,7 +82,7 @@ barchart_count_aandrijving <- ggplot(data = df,
 ) + 
   geom_bar(color = "darkblue",
            fill = "lightblue",
-           linewidth = 1,
+           linewidth = 0.5,
            lineend = "square",
            na.rm = TRUE,
            show.legend = FALSE
@@ -95,3 +96,53 @@ barchart_count_aandrijving <- ggplot(data = df,
 
 barchart_count_brandstof
 barchart_count_aandrijving
+
+pivot_sample <- df %>%
+  pivot_longer(cols = c("aandrijving"),
+               names_to = "type",
+               values_to = "aandrijving_continent")
+
+barchart_count_aandrijving_continent <- ggplot(data = pivot_sample,
+                                             aes(x = aandrijving_continent,
+                                                 fill = continent)
+) +
+  geom_bar(position = "dodge", 
+           stat = "count",
+           color = "black",
+           linewidth = 0.25,
+           lineend = "square",
+           na.rm = TRUE,
+           show.legend = TRUE
+) +
+  labs(title = "Hoeveelheid geteste auto's per type aandrijving en continent",
+       subtitle = "Auto's getest in tijdschriften, 2022 en 2023",
+       caption = "AutoVisie, 2022/2023",
+       x = "Type aandrijving",
+       y = "Hoeveelheid geteste auto's")
+
+barchart_count_aandrijving_continent
+
+pivot_sample <- df %>%
+  pivot_longer(cols = c("brandstof"),
+               names_to = "type",
+               values_to = "brandstof_continent")
+
+barchart_count_brandstof_continent <- ggplot(data = pivot_sample,
+                                               aes(x = brandstof_continent,
+                                                   fill = continent)
+) +
+  geom_bar(position = "dodge", 
+           stat = "count",
+           color = "black",
+           linewidth = 0.25,
+           lineend = "square",
+           na.rm = TRUE,
+           show.legend = TRUE
+  ) +
+  labs(title = "Hoeveelheid geteste auto's per type brandstof en continent",
+       subtitle = "Auto's getest in tijdschriften, 2022 en 2023",
+       caption = "AutoVisie, 2022/2023",
+       x = "Type brandstof",
+       y = "Hoeveelheid geteste auto's")
+
+barchart_count_brandstof_continent
