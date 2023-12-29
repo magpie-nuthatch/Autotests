@@ -10,3 +10,8 @@ df <- read.csv(
 
 head(df,
     n = 10)
+summary(df)
+nrow(df)
+ncol(df)
+
+
