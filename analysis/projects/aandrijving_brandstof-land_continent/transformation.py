@@ -17,7 +17,7 @@ def descriptives(df):
         print()
         print(f"Descriptives for column {column}:")
         print(df_loop[column].describe())
-        if df_loop[column].dtype == "object" and len(df_loop[column].unique()) < 30: # Displays all unique values for columns with less than 30 unique values
+        if df_loop[column].dtype == "object" and len(df_loop[column].unique()) < 10: # Displays all unique values for columns with less than 10 unique values
             unique_values = sorted(df_loop[column].unique())
             print()
             print(f"Unique values in column {column}:")
@@ -29,6 +29,12 @@ descriptives(df)
 
 df_trans = df.dropna(subset = ["continent", "brandstof", "aandrijving"], 
                      how = "any")
+
+df_trans.drop(df[df["continent"].isin(["Overig"])].index,
+              inplace = True)
+
+df_trans.drop(df[df["brandstof"].isin(["Alternatief"])].index,
+              inplace = True)
 
 descriptives(df_trans)
 
