@@ -1,11 +1,7 @@
 auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelheid;acceleratie100;maxvermogen;maxkoppel;massaleeg;beoordeling
 312;Cadillac CTS-V Blackwing;Cadillac;CTS-V Blackwing;2022.0;Noord-Amerika;VS;benzine;R;320.0;3.8;490.0;894.0;1870.0;4.5
-313;Bentley Flying Spur Hybrid;Bentley;Flying Spur Hybrid;2022.0;Europa;VK;hybride;;285.0;4.3;400.0;750.0;2505.0;3.5
-314;Mercedes-Benz EQS 580 4MATIC AMG Line;Mercedes-Benz;EQS 580 4MATIC AMG Line;2022.0;Europa;Duitsland;elektrisch;;210.0;4.3;385.0;855.0;2585.0;4.0
 315;Caterham Seven 170R;Caterham;Seven 170R;2022.0;Europa;VK;benzine;R;168.0;6.9;62.0;116.0;440.0;
 316;Honda S660;Honda;S660;2022.0;Azie;Japan;benzine;R;140.0;13.6;47.0;104.0;827.0;
-317;Renault Megane E-tech EV60 Iconic;Renault;Megane E-tech EV60 Iconic;2022.0;Europa;Frankrijk;elektrisch;;160.0;7.4;160.0;300.0;1725.0;
-318;Renault Megane Scenic RT 1.6 e;Renault;Megane Scenic RT 1.6 e;1997.0;Europa;Frankrijk;benzine;;170.0;13.7;66.2;137.0;1195.0;
 319;Ferrari 250 GT Coupe Pinin Farina;Ferrari;250 GT Coupe Pinin Farina;1958.0;Europa;Italie;benzine;R;203.0;6.4;176.0;265.0;1230.0;
 320;Simca 1000 S Coupe;Simca;1000 S Coupe;1968.0;Europa;Frankrijk;benzine;R;140.0;13.0;35.0;75.0;880.0;
 321;GMC Typhoon;GMC;Typhoon;1992.0;Noord-Amerika;VS;benzine;4;200.0;5.9;208.88;484.0;1734.0;
@@ -15,12 +11,8 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 325;Audi TT 3.2 V6 Quattro;Audi;TT 3.2 V6 Quattro;2004.0;Europa;Duitsland;benzine;4;250.0;6.3;183.87;320.0;1465.0;
 326;Cupra Born Copper Edition One;Cupra;Born Copper Edition One;2022.0;Europa;Spanje;elektrisch;R;160.0;7.3;150.0;310.0;1711.0;
 327;Toyota Aygo X;Toyota;Aygo X;2022.0;Azie;Japan;benzine;F;151.0;14.8;53.0;93.0;940.0;4.0
-328;Porsche Taycan Sport Turismo;Porsche;Taycan Sport Turismo;2022.0;Europa;Duitsland;elektrisch;;230.0;5.4;240.0;345.0;2080.0;4.0
 329;Mercedes-Benz C 200 4MATIC All Terrain;Mercedes-Benz;C 200 4MATIC All Terrain;2022.0;Europa;Duitsland;benzine;4;231.0;7.5;150.0;1800.0;1720.0;3.5
 330;Mercedes-Benz EQA 350 4MATIC;Mercedes-Benz;EQA 350 4MATIC;2022.0;Europa;Duitsland;elektrisch;4;160.0;6.0;215.0;520.0;2105.0;3.5
-331;Morgan Plus Four CX-T;Morgan;Plus Four CX-T;2022.0;Europa;VK;benzine;;225.0;6.0;187.55;350.0;1213.0;
-332;Ariel Nomad;Ariel;Nomad;2022.0;Europa;VK;benzine;;200.0;3.5;172.84;300.0;670.0;
-333;Bentley S1 Continental Flying Spur;Bentley;S1 Continental Flying Spur;1958.0;Europa;VK;benzine;;191.0;12.5;132.0;400.0;1766.0;
 334;Honda Acty;Honda;Acty;1986.0;Azie;Japan;benzine;4;105.0;;21.33;44.0;823.0;
 335;Rover 220 GTi;Rover;220 GTi;1992.0;Europa;VK;benzine;F;204.0;8.6;102.97;180.0;1195.0;
 336;MG Marvel R Luxury;MG;Marvel R Luxury;2022.0;Azie;China;elektrisch;R;200.0;8.2;132.39;410.0;1810.0;3.5
@@ -30,26 +22,17 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 340;Porsche Cayman R;Porsche;Cayman R;2011.0;Europa;Duitsland;benzine;R;282.0;5.0;242.71;370.0;1295.0;
 341;Maserati MC20;Maserati;MC20;2022.0;Europa;Italie;benzine;R;326.0;2.9;463.0;730.0;1475.0;4.5
 342;Dacia Jogger TCe Bi-Fuel;Dacia;Jogger TCe Bi-Fuel;2022.0;Europa;Roemenie;alternatief;F;175.0;12.3;74.0;170.0;1223.0;3.5
-343;Volkswagen ID.Buzz;Volkswagen;ID.Buzz;;Europa;Duitsland;elektrisch;;145.0;;150.0;310.0;;4.0
-344;Land Rover Range Rover Velar P400e;Land Rover;Range Rover Velar P400e;2022.0;Europa;VK;hybride;;209.0;5.4;297.0;640.0;2233.0;3.5
-345;Bentley Bentayga S;Bentley;Bentayga S;2022.0;Europa;VK;benzine;;290.0;4.5;404.0;770.0;2416.0;3.5
 346;Mercedes-Benz A 45 S AMG;Mercedes-Benz;A 45 S AMG;2022.0;Europa;Duitsland;benzine;4;270.0;3.9;310.0;500.0;1535.0;
 347;Maserati 450S;Maserati;450S;1956.0;Europa;Italie;benzine;R;320.0;;298.0;450.0;790.0;
 348;Jaguar E-Type 4.2 Serie 1.5;Jaguar;E-Type 4.2 Serie 1.5;1969.0;Europa;VK;benzine;R;225.0;8.9;180.93;357.0;1422.0;
 349;Glas S 1004 Coupe;Glas;S 1004 Coupe;1962.0;Europa;Duitsland;benzine;R;135.0;18.3;30.89;69.0;740.0;
 350;Hyundai Kona Electric 64 kWh Premium;Hyundai;Kona Electric 64 kWh Premium;2022.0;Azie;Korea;elektrisch;F;167.0;7.3;150.0;395.0;1660.0;3.5
 351;MG ZS EV Long Range Luxury;MG;ZS EV Long Range Luxury;2022.0;Azie;China;elektrisch;F;175.0;8.6;115.0;280.0;1595.0;3.0
-352;Volvo XC40 P8 AWD Recharge;Volvo;XC40 P8 AWD Recharge;2022.0;Europa;Zweden;elektrisch;;180.0;4.9;308.0;660.0;2188.0;
 353;Volvo V60 1.6 T4 Summum;Volvo;V60 1.6 T4 Summum;2014.0;Europa;Zweden;benzine;F;220.0;8.5;132.0;240.0;1428.0;
 354;BMW Z4 M Coupe;BMW;Z4 M Coupe;2006.0;Europa;Duitsland;benzine;R;250.0;5.0;252.28;365.0;1395.0;
 355;Ferrari 296 GTB;Ferrari;296 GTB;2022.0;Europa;Italie;benzine;R;330.0;2.9;610.0;740.0;1470.0;4.5
 356;Opel Astra;Opel;Astra;2022.0;Europa;Duitsland;benzine;F;210.0;9.7;96.0;230.0;1241.0;4.0
 357;Toyota bZ4X AWD;Toyota;bZ4X AWD;2022.0;Azie;Japan;elektrisch;4;160.0;6.9;160.0;336.0;;3.5
-358;DS 9 E-Tense 250;DS;9 E-Tense 250;2022.0;Europa;Frankrijk;hybride;;240.0;8.2;184.0;360.0;1820.0;3.5
-359;Mini Cooper Camden Edition;Mini;Cooper Camden Edition;2022.0;Europa;Duitsland;benzine;;210.0;8.2;100.03;220.0;1250.0;3.5
-360;BMW B5 Touring Alpina;BMW;B5 Touring Alpina;2022.0;Europa;Duitsland;benzine;;322.0;3.6;457.0;800.0;2055.0;
-361;Porsche Taycan GTS Sport Turismo;Porsche;Taycan GTS Sport Turismo;2022.0;Europa;Duitsland;elektrisch;;250.0;3.7;440.0;850.0;2285.0;
-362;Aston Martin Valkyrie;Aston Martin;Valkyrie;2022.0;Europa;VK;hybride;;;2.7;865.0;900.0;1030.0;
 363;Audi Auto Union 1000S;Audi;Auto Union 1000S;1960.0;Europa;Duitsland;benzine;F;130.0;25.0;36.77;83.0;895.0;
 364;Lancia Appia III;Lancia;Appia III;1959.0;Europa;Italie;benzine;R;132.0;25.0;35.3;85.0;920.0;
 365;Fiat 1100D;Fiat;1100D;1963.0;Europa;Italie;benzine;R;130.0;23.0;35.3;78.0;934.0;
@@ -63,22 +46,15 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 373;BMW 220i Active Tourer;BMW;220i Active Tourer;2022.0;Europa;Duitsland;benzine;F;221.0;8.1;125.0;240.0;1520.0;3.5
 374;Audi A8 60 TFSI e quattro tiptronic;Audi;A8 60 TFSI e quattro tiptronic;2022.0;Europa;Duitsland;benzine;4;250.0;4.9;250.0;500.0;2295.0;4.0
 375;Audi S8;Audi;S8;2022.0;Europa;Duitsland;benzine;4;250.0;3.8;420.0;800.0;2195.0;4.0
-376;Glickenhaus SCG 004 S;Glickenhaus;SCG 004 S;2022.0;Noord-Amerika;VS;benzine;;305.0;3.0;475.13;855.0;1480.0;
 377;BMW 220i Coupe;BMW;220i Coupe;2022.0;Europa;Duitsland;benzine;R;236.0;7.5;135.0;300.0;1465.0;
 378;Subaru Legacy GT Spec B;Subaru;Legacy GT Spec B;2006.0;Azie;Japan;benzine;4;180.0;5.5;203.0;343.0;1576.0;
 379;Mazda 929 Coupe;Mazda;929 Coupe;1982.0;Azie;Japan;benzine;R;175.0;13.8;66.19;154.0;1140.0;
 380;Kia Sportage 1.6 T-Gdi AT6 Hybrid 2WD GT-Line;Kia;Sportage 1.6 T-Gdi AT6 Hybrid 2WD GT-Line;2022.0;Azie;Korea;hybride;F;193.0;7.3;169.16;350.0;1559.0;4.0
 381;Peugeot 3008 Hybrid 225 e-AT8 Allure Pack Business;Peugeot;3008 Hybrid 225 e-AT8 Allure Pack Business;2022.0;Europa;Frankrijk;hybride;F;225.0;8.3;165.49;360.0;1735.0;3.0
-382;Cupra Born 58 kWh Performance;Cupra;Born 58 kWh Performance;2022.0;Europa;Spanje;elektrisch;;160.0;7.3;150.04;310.0;1736.0;
 383;Lexus GS 450h President Line;Lexus;GS 450h President Line;2013.0;Azie;Japan;hybride;R;250.0;5.9;254.0;352.0;1800.0;
 384;Seat Ibiza 2.0i 16V GTI Cupra;Seat;Ibiza 2.0i 16V GTI Cupra;1999.0;Europa;Spanje;benzine;F;215.0;8.3;110.32;180.0;1075.0;
 385;Nissan Ariya;Nissan;Ariya;2022.0;Azie;Japan;elektrisch;4;200.0;5.7;225.0;600.0;2218.0;4.0
 386;Porsche Cayman GT4 RS;Porsche;Cayman GT4 RS;2022.0;Europa;Duitsland;benzine;R;315.0;3.4;368.0;450.0;1415.0;5.0
-387;Skoda Enyaq Coupe;Skoda;Enyaq Coupe;2022.0;Europa;Tsjechie;elektrisch;;160.0;8.8;132.0;310.0;2149.0;4.0
-388;Mazda CX-5 Skyactiv-G 165 Newground;Mazda;CX-5 Skyactiv-G 165 Newground;2022.0;Azie;Japan;benzine;;201.0;10.5;121.0;213.0;1386.0;3.0
-389;Jeep Renegade 1.5T e-Hybrid Longitude;Jeep;Renegade 1.5T e-Hybrid Longitude;2022.0;Noord-Amerika;VS;hybride;;191.0;10.0;90.0;240.0;1395.0;2.5
-390;Ford Fiesta 1.0 Ecoboost 125 pk Hybrid ST Line X;Ford;Fiesta 1.0 Ecoboost 125 pk Hybrid ST Line X;2022.0;Noord-Amerika;VS;hybride;;200.0;9.4;92.0;210.0;1136.0;
-391;Hyundai i20 1.0 T-GDI mHEV 120 pk 7-DCT N Line;Hyundai;i20 1.0 T-GDI mHEV 120 pk 7-DCT N Line;2022.0;Azie;Korea;hybride;;190.0;10.3;88.0;200.0;1090.0;
 392;Lotus Esprit Turbo;Lotus;Esprit Turbo;1981.0;Europa;VK;benzine;R;245.0;5.6;156.5;271.0;1148.0;
 393;Audi 80L;Audi;80L;1973.0;Europa;Duitsland;benzine;F;145.0;16.9;44.13;95.0;835.0;
 394;Porsche 928 GTS;Porsche;928 GTS;1992.0;Europa;Duitsland;benzine;R;275.0;5.7;250.07;500.0;1620.0;
@@ -92,7 +68,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 402;Land Rover Range Rover P530 SV LWB;Land Rover;Range Rover P530 SV LWB;2022.0;Europa;VK;benzine;4;250.0;4.8;390.0;750.0;2626.0;4.5
 403;Mercedes-Benz EQE 350+;Mercedes-Benz;EQE 350+;2022.0;Europa;Duitsland;elektrisch;R;210.0;6.4;215.0;530.0;2255.0;4.0
 404;Nio ES8 100 kWh;Nio;ES8 100 kWh;2022.0;Azie;China;elektrisch;4;200.0;4.9;400.0;725.0;2425.0;4.0
-405;Subaru Solterra;Subaru;Solterra;2022.0;Azie;Japan;elektrisch;;160.0;6.9;160.0;336.0;2010.0;3.5
 406;Nissan Qashqai e-Power;Nissan;Qashqai e-Power;2022.0;Azie;Japan;elektrisch;F;160.0;8.5;140.0;330.0;1650.0;4.0
 407;Autech Gavia Zagato;Autech;Gavia Zagato;1991.0;Azie;Japan;benzine;R;250.0;5.9;206.0;382.0;;
 408;Bentley 3 1/2 Litre Streamline Sports Saloon Park Ward;Bentley;3 1/2 Litre Streamline Sports Saloon Park Ward;1935.0;Europa;VK;benzine;R;145.0;10.3;80.9;;1120.0;
@@ -109,9 +84,7 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 419;Maserati Grecale GT;Maserati;Grecale GT;2022.0;Europa;Italie;hybride;4;240.0;5.6;221.0;450.0;1870.0;3.5
 420;Maserati Grecale Trofeo;Maserati;Grecale Trofeo;2022.0;Europa;Italie;benzine;4;285.0;3.8;340.0;620.0;2027.0;3.5
 421;Mazda CX-60;Mazda;CX-60;2022.0;Azie;Japan;hybride;4;200.0;5.8;141.0;261.0;1955.0;3.5
-422;Mercedes-Benz GT 63 S E Performance AMG;Mercedes-Benz;GT 63 S E Performance AMG;2022.0;Europa;Duitsland;benzine;;316.0;2.9;470.0;900.0;2280.0;4.0
 423;Aston Martin DBX707;Aston Martin;DBX707;2022.0;Europa;VK;benzine;4;310.0;3.3;520.0;900.0;2245.0;
-424;Tesla Model Y Performance;Tesla;Model Y Performance;2022.0;Noord-Amerika;VS;elektrisch;;250.0;3.7;340.0;639.0;1972.0;
 425;Hommell Berlinette RS;Hommell;Berlinette RS;1997.0;Europa;Frankrijk;benzine;F;230.0;6.5;122.83;196.0;950.0;
 426;Opel Vectra 1.8i GLS;Opel;Vectra 1.8i GLS;1991.0;Europa;Duitsland;benzine;F;183.0;12.5;66.19;145.0;1221.0;
 427;Daihatsu Charmant 1.6;Daihatsu;Charmant 1.6;1982.0;Azie;Japan;benzine;R;160.0;12.1;55.16;118.0;904.0;
@@ -185,7 +158,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 495;Ford S-Max 1.5 ECOBOOST ST-LINE;Ford;S-Max 1.5 ECOBOOST ST-LINE;2018.0;Noord-Amerika;VS;benzine;F;200.0;9.9;118.0;240.0;1545.0;
 496;Abarth 500e;Abarth;500e;2023.0;Europa;Italie;elektrisch;F;155.0;7.0;114.0;236.0;1310.0;4.0
 497;Mazda MX-5 Homura;Mazda;MX-5 Homura;2023.0;Azie;Japan;benzine;R;219.0;6.5;135.0;205.0;997.0;4.0
-498;Mazda CX-5 SkyActiv-G 165;Mazda;CX-5 SkyActiv-G 165;2023.0;Azie;Japan;hybride;;201.0;10.7;121.4;213.0;1567.0;3.5
 499;Ferrari SF90 Spider;Ferrari;SF90 Spider;2023.0;Europa;Italie;hybride;R;340.0;2.5;574.0;800.0;1670.0;
 500;BMW M4 CSL;BMW;M4 CSL;2023.0;Europa;Duitsland;benzine;R;307.0;3.7;405.0;650.0;1625.0;
 501;Porsche 911 T;Porsche;911 T;2023.0;Europa;Duitsland;benzine;R;291.0;4.5;283.0;450.0;1470.0;
@@ -197,8 +169,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 507;Skoda Slavia 1.0 TSI;Skoda;Slavia 1.0 TSI;2023.0;Europa;Tsjechie;benzine;F;190.0;10.7;84.0;175.0;1278.0;
 508;BMW X1 sDrive20iA Orange Edition II;BMW;X1 sDrive20iA Orange Edition II;2018.0;Europa;Duitsland;benzine;F;226.0;7.7;141.0;280.0;1460.0;
 509;Lucid Air Dream Edition Performance;Lucid;Air Dream Edition Performance;2023.0;Noord-Amerika;VS;elektrisch;4;270.0;2.7;817.0;1390.0;2335.0;4.0
-510;Volkswagen ID.7;Volkswagen;ID.7;2023.0;Europa;Duitsland;elektrisch;;;;210.45;545.0;2200.0;3.0
-511;BMW M2 H6;BMW;M2 H6;2023.0;Europa;Duitsland;benzine;;250.0;4.3;338.0;550.0;1700.0;4.0
 512;Alfa Romeo Giulia 2.0T 280 pk AWD;Alfa Romeo;Giulia 2.0T 280 pk AWD;2023.0;Europa;Italie;benzine;4;240.0;5.2;206.0;400.0;1545.0;3.0
 513;Alfa Romeo Stelvio 2.0T 280 pk AWD;Alfa Romeo;Stelvio 2.0T 280 pk AWD;2023.0;Europa;Italie;benzine;4;230.0;5.7;206.0;400.0;1655.0;3.0
 514;BMW X7 xDrive40i;BMW;X7 xDrive40i;2023.0;Europa;Duitsland;benzine;4;250.0;5.8;280.0;520.0;2490.0;
@@ -210,7 +180,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 520;Peugeot 408 GT First Edition Hybrid 225 e-EAT8;Peugeot;408 GT First Edition Hybrid 225 e-EAT8;2023.0;Europa;Frankrijk;hybride;F;233.0;7.9;360.0;320.0;1681.0;3.5
 521;Mercedes-Benz A 250 Sport;Mercedes-Benz;A 250 Sport;2013.0;Europa;Duitsland;benzine;F;240.0;6.6;155.0;350.0;1365.0;
 522;BMW XM;BMW;XM;2023.0;Europa;Duitsland;hybride;4;250.0;4.3;800.0;650.0;2710.0;3.5
-523;Nio EL7;Nio;EL7;2023.0;Azie;China;elektrisch;;200.0;3.9;480.0;850.0;2000.0;4.0
 524;BAC Mono R;BAC;Mono R;2023.0;Europa;VK;benzine;R;273.0;2.5;254.0;330.0;555.0;3.0
 525;Fiat 500e Cabrio;Fiat;500e Cabrio;2023.0;Europa;Italie;elektrisch;F;150.0;9.0;87.0;220.0;1265.0;3.5
 526;Jaguar F-Type Convertible P450 RWD;Jaguar;F-Type Convertible P450 RWD;2023.0;Europa;VK;benzine;R;285.0;4.6;331.0;580.0;1793.0;
@@ -220,14 +189,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 530;Mercedes-Benz 190E 1.8 Avantgarde Rosso;Mercedes-Benz;190E 1.8 Avantgarde Rosso;1992.0;Europa;Duitsland;benzine;R;187.0;12.7;80.0;150.0;1150.0;
 531;DS 3 E-Tense Performance Line;DS;3 E-Tense Performance Line;2023.0;Europa;Frankrijk;elektrisch;F;151.0;8.8;115.0;260.0;1525.0;2.5
 532;MG 4 64 kWh Long Range Luxury;MG;4 64 kWh Long Range Luxury;2023.0;Azie;China;elektrisch;R;167.0;7.8;150.0;250.0;1660.0;4.0
-533;Audi TT Roadster 1.8 5V Turbo;Audi;TT Roadster 1.8 5V Turbo;2003.0;Europa;Duitsland;benzine;;222.0;8.1;110.0;210.0;1315.0;
-534;BMW Z3 1.8;BMW;Z3 1.8;1997.0;Europa;Duitsland;benzine;;194.0;10.5;85.0;168.0;1135.0;
-535;Smart Roadster 0.7 Affection;Smart;Roadster 0.7 Affection;2004.0;Europa;Duitsland;benzine;;175.0;10.9;60.37;;;
-536;MG F 1.8i;MG;F 1.8i;1997.0;Europa;VK;benzine;;193.0;9.0;88.26;;;
-537;Mazda MX-5 (NC) 2.0 Karai;Mazda;MX-5 (NC) 2.0 Karai;2011.0;Azie;Japan;benzine;;218.0;7.9;117.68;;;
-538;Mercedes-Benz E 200 CGI Avantgarde Cabriolet;Mercedes-Benz;E 200 CGI Avantgarde Cabriolet;2010.0;Europa;Duitsland;benzine;;231.0;8.6;135.33;;;
-539;Ford Mustang Convertible 3.7 V6;Ford;Mustang Convertible 3.7 V6;2014.0;Noord-Amerika;VS;benzine;;243.0;6.4;224.13;;;
-540;Aston Martin V8 Vantage Roadster;Aston Martin;V8 Vantage Roadster;2007.0;Europa;VK;benzine;;280.0;5.0;283.37;;;
 541;Rimac Nivera;Rimac;Nivera;2023.0;Europa;Kroatie;elektrisch;4;412.0;1.8;1352.0;2360.0;2300.0;4.5
 542;Xpeng G9 AWD Performance;Xpeng;G9 AWD Performance;2023.0;Azie;China;elektrisch;4;200.0;3.9;405.0;717.0;2340.0;3.5
 543;Munro BEV;Munro;BEV;2023.0;Europa;VK;elektrisch;4;;4.9;217.0;601.0;;3.5
@@ -263,7 +224,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 573;Jaguar E-Pace P250 AWD;Jaguar;E-Pace P250 AWD;2018.0;Europa;VK;elektrisch;4;230.0;7.0;183.0;365.0;;
 574;Fiat 600e;Fiat;600e;2023.0;Europa;Italie;elektrisch;F;150.0;9.0;115.0;260.0;1420.0;4.0
 575;Jeep Grand Cherokee 4x4;Jeep;Grand Cherokee 4x4;2023.0;Noord-Amerika;VS;hybride;4;210.0;6.3;200.0;400.0;2478.0;3.5
-576;Toyota C-HR 2.0 Plug-In Hybrid;Toyota;C-HR 2.0 Plug-In Hybrid;2023.0;Azie;Japan;hybride;;180.0;7.3;164.0;208.0;;4.0
 577;Chevrolet Corvette Z06;Chevrolet;Corvette Z06;2023.0;Noord-Amerika;VS;benzine;R;300.0;3.0;475.0;595.0;1561.0;
 578;Porsche 911 Sport Classic;Porsche;911 Sport Classic;2023.0;Europa;Duitsland;benzine;R;315.0;4.1;405.0;600.0;1545.0;
 579;Pininfarina Battista;Pininfarina;Battista;2023.0;Europa;Italie;elektrisch;4;357.0;1.9;1380.0;2363.0;2302.0;
@@ -277,9 +237,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 587;Renault Megane E-Tech EV60 220pk Optimum Charge Iconic;Renault;Megane E-Tech EV60 220pk Optimum Charge Iconic;2023.0;Europa;Frankrijk;elektrisch;F;160.0;7.4;160.0;300.0;1611.0;
 588;BMW i5 M60 xDrive;BMW;i5 M60 xDrive;2023.0;Europa;Duitsland;elektrisch;4;230.0;3.8;442.0;820.0;2305.0;4.0
 589;Subaru Crosstrek 2.0i e-Boxer;Subaru;Crosstrek 2.0i e-Boxer;2023.0;Azie;Japan;hybride;4;198.0;10.8;100.0;182.0;1595.0;4.0
-590;Dacia Jogger;Dacia;Jogger;2023.0;Europa;Roemenie;benzine;;175.0;13.2;74.0;170.0;1198.0;3.5
-591;Peugeot e-3008;Peugeot;e-3008;2023.0;Europa;Frankrijk;elektrisch;;150.0;8.5;115.0;270.0;1523.0;3.0
-592;Lucid Air Touring;Lucid;Air Touring;2023.0;Noord-Amerika;VS;elektrisch;;250.0;3.6;462.63;1200.0;2360.0;
 593;Toyota Crown Hardtop De Luxe;Toyota;Crown Hardtop De Luxe;1972.0;Azie;Japan;benzine;R;170.0;13.3;96.0;196.0;1340.0;
 594;BMW 1502;BMW;1502;1975.0;Europa;Duitsland;benzine;R;155.0;14.3;55.0;120.0;1075.0;
 595;Triumph Dolomite;Triumph;Dolomite;1973.0;Europa;VK;benzine;R;161.0;12.5;68.0;159.0;967.0;
@@ -296,10 +253,8 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 606;Xpeng G9 Long Range;Xpeng;G9 Long Range;2023.0;Azie;China;elektrisch;R;200.0;6.3;230.0;430.0;2135.0;4.0
 607;Nissan Ariya 87 kWh Evolve;Nissan;Ariya 87 kWh Evolve;2023.0;Azie;Japan;elektrisch;F;160.0;8.5;187.0;300.0;2046.0;3.0
 608;Audi A7 Sportback 2.8 FSI Quattro Pro Line Plus;Audi;A7 Sportback 2.8 FSI Quattro Pro Line Plus;2011.0;Europa;Duitsland;benzine;4;235.0;8.3;150.0;280.0;1695.0;
-609;Mercedes-Benz CLS 350;Mercedes-Benz;CLS 350;2011.0;Europa;Duitsland;benzine;;250.0;6.1;225.0;370.0;1635.0;
 610;Volkswagen Tiguan 1.4 TSI;Volkswagen;Tiguan 1.4 TSI;2018.0;Europa;Duitsland;benzine;F;190.0;10.5;92.0;200.0;1390.0;
 611;Smart 3 Brabus;Smart;3 Brabus;2024.0;Azie;China;elektrisch;4;180.0;3.7;315.0;543.0;1910.0;4.5
-612;Peugeot e-308 SW Allure;Peugeot;e-308 SW Allure;2023.0;Europa;Frankrijk;elektrisch;;170.0;10.0;115.0;270.0;1691.0;3.0
 613;Ferrari SF90 XX Stradale;Ferrari;SF90 XX Stradale;2024.0;Europa;Italie;hybride;F;320.0;2.3;757.0;900.0;1560.0;
 614;Audi R8 GT RWD;Audi;R8 GT RWD;2023.0;Europa;Duitsland;benzine;R;320.0;3.4;456.0;565.0;1470.0;
 615;BMW M3 Touring Competition xDrive;BMW;M3 Touring Competition xDrive;2023.0;Europa;Duitsland;benzine;4;250.0;3.6;375.0;650.0;1840.0;
@@ -312,7 +267,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 622;Ferrari FF;Ferrari;FF;2013.0;Europa;Italie;benzine;4;335.0;3.7;486.0;638.0;1855.0;
 623;Kia Niro EV;Kia;Niro EV;2022.0;Azie;Korea;elektrisch;F;167.0;7.8;160.0;254.0;1653.0;3.5
 624;Xpeng P5;Xpeng;P5;2022.0;Azie;China;elektrisch;F;175.0;7.5;155.0;310.0;1790.0;3.0
-625;BMW iX M60;BMW;iX M60;2022.0;Europa;Duitsland;elektrisch;;250.0;3.8;455.0;1100.0;2584.0;3.5
 626;Citroen C5 X Plug-In Hybrid 225 e-EAT 8 Business Plus;Citroen;C5 X Plug-In Hybrid 225 e-EAT 8 Business Plus;2022.0;Europa;Frankrijk;hybride;F;225.0;8.9;165.0;360.0;1697.0;
 627;Volkswagen Arteon Shooting Brake e-Hybrid R-Line Business+;Volkswagen;Arteon Shooting Brake e-Hybrid R-Line Business+;2022.0;Europa;Duitsland;hybride;F;222.0;7.8;160.0;400.0;1709.0;
 628;Max Roadster;Max;Roadster;1990.0;Europa;Nederland;benzine;F;190.0;9.0;61.5;115.0;772.0;
@@ -324,7 +278,6 @@ auto_id;merkmodel;merk;model;jaar;continent;land;brandstof;aandrijving;topsnelhe
 634;Lada 2105 1.3;Lada;2105 1.3;1981.0;Europa;Rusland;benzine;R;148.0;18.0;47.81;96.0;970.0;
 635;Lotus Emira V6;Lotus;Emira V6;2022.0;Europa;VK;benzine;R;290.0;4.3;298.0;420.0;1405.0;4.0
 636;Weltmeister W5;Weltmeister;W5;2023.0;Azie;China;elektrisch;F;160.0;8.3;160.0;315.0;;3.0
-637;Mercedes-Benz EQS 53 AMG;Mercedes-Benz;EQS 53 AMG;2022.0;Europa;Duitsland;elektrisch;;250.0;3.4;560.45;1020.0;2555.0;3.5
 638;Mercedes-Benz EQXX Vision;Mercedes-Benz;EQXX Vision;2022.0;Europa;Duitsland;elektrisch;R;140.0;;180.2;;1755.0;
 639;Mercedes-Benz 280 SL;Mercedes-Benz;280 SL;1980.0;Europa;Duitsland;benzine;R;207.0;9.0;136.07;238.0;1560.0;
 640;Nissan 2400 Custom de Luxe;Nissan;2400 Custom de Luxe;1972.0;Azie;Japan;benzine;R;165.0;11.2;95.61;196.0;1320.0;

@@ -18,10 +18,5 @@ for index, row in df.iterrows():
     else:
         pass
 
-df = df.dropna(subset = ["continent", "topsnelheid", "acceleratie100", "brandstof", "maxvermogen", "maxkoppel", "massaleeg"], 
-               how = "any"
-               )
-
 df.to_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
-          sep=";"
-          )
+          sep=";")
