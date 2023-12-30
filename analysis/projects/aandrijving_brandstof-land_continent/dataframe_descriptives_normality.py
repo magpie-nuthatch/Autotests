@@ -2,26 +2,28 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
 
-def descriptives(df, unique_values_max_count, plot_bin_amount):
+def descriptives(df, unique_values_bool, unique_values_max_count, normality_tests_bool, normality_tests_bins):
     np.set_printoptions(suppress = True,
                     formatter = {'float_kind':'{:0.2f}'.format})
     try:
         print()
-        print(f"Information for columns in current dataframe:")
+        print(f"Information on columns in current dataframe:")
         print(df.info())
         for column in df:
             df_loop = df.dropna(subset = column)
             print()
             print(f"Descriptives for column {column}:")
             print(df_loop[column].describe())
-            if df_loop[column].dtype == "object" and len(df_loop[column].unique()) < unique_values_max_count:
+            if df_loop[column].dtype == "object" and unique_values_bool == True and len(df_loop[column].unique()) < unique_values_max_count:
                 unique_values = sorted(df_loop[column].unique())
                 print()
                 print(f"Unique values in column {column}:")
                 for value in unique_values:
                     print(value)
+            else:
+                pass
             print()
-            if df_loop[column].dtype != "object":
+            if df_loop[column].dtype != "object" and normality_tests_bool == True:
                 try:
                     fig = plt.figure(figsize = (10, 10))
                     ax = fig.add_subplot(111)
@@ -33,7 +35,7 @@ def descriptives(df, unique_values_max_count, plot_bin_amount):
 
                     df_loop.plot(kind = "hist", 
                                 y = column, 
-                                bins = plot_bin_amount, 
+                                bins = normality_tests_bins, 
                                 title = f"Histogram for {column}")
                     plt.show()
 
@@ -48,5 +50,7 @@ def descriptives(df, unique_values_max_count, plot_bin_amount):
                     except:
                         pass
                 print()
+            else:
+                pass
     except AttributeError:
         print("Descriptives unavailable for current dataframe.")

@@ -7,7 +7,11 @@ df = pd.read_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
                  sep = ";",
                  index_col = 0)
 
-descriptives(df, 5, 15)
+descriptives(df, 
+             True,
+             5, 
+             False,
+             None)
 
 df_trans = df
 
@@ -21,7 +25,11 @@ df_trans.dropna(subset = ["continent", "land", "brandstof", "aandrijving"],
                 how = "any",
                 inplace = True)
 
-descriptives(df_trans, 5, 15)
+descriptives(df_trans, 
+             False, 
+             None, 
+             True,
+             15)
 
 df_trans.to_csv("general\\csv\\transformed\\autotests_trans-aandrijving_brandstof.csv",
           sep=";")
