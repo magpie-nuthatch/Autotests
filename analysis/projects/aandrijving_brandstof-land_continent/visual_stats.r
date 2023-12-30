@@ -1,6 +1,5 @@
 library(tidyverse)
 library(dplyr)
-library(epitools) # Loads epitools package for odds ratio calculation
 
 options(scipen = 999)
 setwd("~/T99/Autotests")
