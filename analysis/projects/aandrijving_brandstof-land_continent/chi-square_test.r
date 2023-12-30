@@ -16,14 +16,15 @@ aandrijving <- df$aandrijving
 
 chi_square <- chisq.test(x = continent,
                          y = brandstof,
-                         simulate.p.value = FALSE, # Turns Monte Carlo simulation off
+                         simulate.p.value = TRUE, # Turns Monte Carlo simulation off
                          B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
 )
 
 chisquare_or <- oddsratio(x = continent,
                           y = brandstof,
                           conf.level = 0.95, # Set confidence interval level
-                          verbose = TRUE # Makes results more detailed)
+                          correction = FALSE, # Turns on Yate's continuity correction
+                          verbose = FALSE # Makes results more detailed)
 )
 
 chi_square
