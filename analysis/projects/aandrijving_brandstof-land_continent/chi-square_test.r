@@ -14,18 +14,34 @@ land <- df$land
 brandstof <- df$brandstof
 aandrijving <- df$aandrijving
 
-chi_square <- chisq.test(x = continent,
-                         y = brandstof,
-                         simulate.p.value = TRUE, # Turns Monte Carlo simulation off
-                         B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
+chisquare_brandstof <- chisq.test(x = continent,
+                                  y = brandstof,
+                                  simulate.p.value = FALSE, # Turns Monte Carlo simulation off
+                                  B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
 )
 
-chisquare_or <- oddsratio(x = continent,
-                          y = brandstof,
-                          conf.level = 0.95, # Set confidence interval level
-                          correction = FALSE, # Turns on Yate's continuity correction
-                          verbose = FALSE # Makes results more detailed)
+oddsratio_brandstof <- oddsratio(x = continent,
+                                 y = brandstof,
+                                 conf.level = 0.95, # Set confidence interval level
+                                 correction = FALSE, # Turns on Yate's continuity correction
+                                 verbose = FALSE # Makes results more detailed)
 )
 
-chi_square
-chisquare_or
+chisquare_aandrijving <- chisq.test(x = continent,
+                                  y = aandrijving,
+                                  simulate.p.value = FALSE, # Turns Monte Carlo simulation off
+                                  B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
+)
+
+oddsratio_aandrijving <- oddsratio(x = continent,
+                                 y = aandrijving,
+                                 conf.level = 0.95, # Set confidence interval level
+                                 correction = FALSE, # Turns on Yate's continuity correction
+                                 verbose = FALSE # Makes results more detailed)
+)
+
+chisquare_brandstof
+oddsratio_brandstof
+
+chisquare_aandrijving
+oddsratio_aandrijving
