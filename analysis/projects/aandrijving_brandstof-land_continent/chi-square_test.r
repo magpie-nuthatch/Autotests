@@ -14,39 +14,27 @@ land <- df$land
 brandstof <- df$brandstof
 aandrijving <- df$aandrijving
 
-chisquare_brandstof <- chisq.test(x = continent,
-                                  y = brandstof,
-                                  simulate.p.value = FALSE, # Turns Monte Carlo simulation off
-                                  B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
-)
+chisquare_oddsratio <- function(x_var, x_var_name, y_var, y_var_name, sim_p_bool, sim_p_num, conf, corr_bool, verb) {
+  library(epitools)
+  var_name <- function(var) {
+    deparse(substitute(var))
+  }
+  print("", quote = FALSE)
+  print(paste0("Chi-squared test for variables ", x_var_name, " (x_var) and ", y_var_name, " (y_var):"), quote = FALSE)
+  print(
+    chisq.test(x = x_var,
+    y = y_var,
+    simulate.p.value = sim_p_bool,
+    B = sim_p_num))
+  print("", quote = FALSE)
+  print(paste0("Odds ratio calculation for variables ", x_var_name, " (x_var) and ", y_var_name, " (y_var):"), quote = FALSE)
+  print(
+    oddsratio(x = x_var,
+    y = y_var,
+    conf.level = conf,
+    correction = corr_bool,
+    verbose = verb))
+}
 
-oddsratio_brandstof <- oddsratio(x = continent,
-                                 y = brandstof,
-                                 conf.level = 0.95, # Set confidence interval level
-                                 correction = FALSE, # Turns on Yate's continuity correction
-                                 verbose = FALSE # Makes results more detailed)
-)
-
-chisquare_aandrijving <- chisq.test(x = continent,
-                                  y = aandrijving,
-                                  simulate.p.value = FALSE, # Turns Monte Carlo simulation off
-                                  B = 10000 # Sets number of simulations if Monte Carlo simulation is turned on
-)
-
-oddsratio_aandrijving <- oddsratio(x = continent,
-                                 y = aandrijving,
-                                 conf.level = 0.95, # Set confidence interval level
-                                 correction = FALSE, # Turns on Yate's continuity correction
-                                 verbose = FALSE # Makes results more detailed)
-)
-
-print("", quote = FALSE)
-print("Chi-squared test for variables continent and brandstof:", quote = FALSE)
-print(chisquare_brandstof)
-print("Odds ratio calculation for variables continent and brandstof:", quote = FALSE)
-print(oddsratio_brandstof)
-print("", quote = FALSE)
-print("Chi-squared test for variables continent and aandrijving:", quote = FALSE)
-print(chisquare_aandrijving)
-print("Odds ratio calculation for variables continent and aandrijving:", quote = FALSE)
-print(oddsratio_aandrijving)
+print(chisquare_oddsratio(continent, "continent", brandstof, "brandstof", TRUE, 10000, 0.95, FALSE, FALSE))
+print(chisquare_oddsratio(continent, "continent", aandrijving, "aandrijving", TRUE, 10000, 0.95, FALSE, FALSE))
