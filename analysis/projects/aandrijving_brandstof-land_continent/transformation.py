@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from dataframe_descriptives_normality import descriptives 
+from dataframe_descriptives_normality import descriptives_n as descriptives
 
-df = pd.read_csv("general\\csv\\transformed\\autotests_trans-initial.csv",
+df = pd.read_csv(r"general\csv\transformed\autotests_trans-initial.csv",
                  encoding='latin1',
                  sep = ";",
                  index_col = 0)
