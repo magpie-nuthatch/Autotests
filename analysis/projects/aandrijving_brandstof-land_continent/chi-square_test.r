@@ -1,5 +1,4 @@
 library(tidyverse)
-library(epitools) # Loads epitools package for odds ratio calculation
 
 options(scipen = 999)
 setwd("~/T99/Autotests")
@@ -14,7 +13,7 @@ land <- df$land
 brandstof <- df$brandstof
 aandrijving <- df$aandrijving
 
-chisquare_oddsratio <- function(x_var, x_var_name, y_var, y_var_name, sim_p_bool, sim_p_num, conf, corr_bool, verb) {
+chisquare_oddsratio <- function(x_var, x_var_name, y_var, y_var_name, sim_p_bool, sim_p_num, conf, corr_bool, verb_bool) {
   library(epitools)
   var_name <- function(var) {
     deparse(substitute(var))
@@ -33,7 +32,7 @@ chisquare_oddsratio <- function(x_var, x_var_name, y_var, y_var_name, sim_p_bool
     y = y_var,
     conf.level = conf,
     correction = corr_bool,
-    verbose = verb))
+    verbose = verb_bool))
 }
 
 print(chisquare_oddsratio(continent, "continent", brandstof, "brandstof", TRUE, 10000, 0.95, FALSE, FALSE))
