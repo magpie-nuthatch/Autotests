@@ -40,8 +40,13 @@ oddsratio_aandrijving <- oddsratio(x = continent,
                                  verbose = FALSE # Makes results more detailed)
 )
 
-chisquare_brandstof
-oddsratio_brandstof
-
-chisquare_aandrijving
-oddsratio_aandrijving
+print("", quote = FALSE)
+print("Chi-squared test for variables continent and brandstof:", quote = FALSE)
+print(chisquare_brandstof)
+print("Odds ratio calculation for variables continent and brandstof:", quote = FALSE)
+print(oddsratio_brandstof)
+print("", quote = FALSE)
+print("Chi-squared test for variables continent and aandrijving:", quote = FALSE)
+print(chisquare_aandrijving)
+print("Odds ratio calculation for variables continent and aandrijving:", quote = FALSE)
+print(oddsratio_aandrijving)
