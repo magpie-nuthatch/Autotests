@@ -36,4 +36,4 @@ chisquare_oddsratio <- function(x_var, x_var_name, y_var, y_var_name, sim_p_bool
 }
 
 print(chisquare_oddsratio(continent, "continent", brandstof, "brandstof", TRUE, 10000, 0.95, FALSE, FALSE))
-print(chisquare_oddsratio(continent, "continent", aandrijving, "aandrijving", TRUE, 10000, 0.95, FALSE, FALSE))
+print(chisquare_oddsratio(continent, "continent", aandrijving, "aandrijving", TRUE, 10000, 0.95, FALSE, FALSE)) 
